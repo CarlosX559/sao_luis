@@ -181,29 +181,33 @@ a {
                 max-width: 800px;
                 overflow-y: visible !important;
                 margin: 0px 20px !important;
-            }
 
-            .swiper-slide {
-                display: flex !important;
-                justify-content: center;
-                position: relative;
-                overflow-x: clip;
+                .swiper-slide {
+                    display: flex !important;
+                    justify-content: center;
+                    position: relative;
+                    overflow-x: clip;
 
-                .estudante {
-                    position: absolute;
-                    left: 10px;
-                    top: -47px;
-                    max-width: 360px;
-                    height: auto;
+                    .estudante {
+                        position: absolute;
+                        left: 10px;
+                        top: -47px;
+                        max-width: 360px;
+                        height: auto;
+                    }
+
                 }
 
+                .swiper-slide img {
+                    max-width: 780px;
+                    width: 100%;
+                    height: auto;
+                }
             }
 
-            .swiper-slide img {
-                max-width: 780px;
-                width: 100%;
-                height: auto;
-            }
+
+
+
 
         }
     }

@@ -35,7 +35,6 @@
                             <img src="img/banner_2.png" alt="">
                         </div>
 
-
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -732,17 +731,17 @@
             breakpoints: {
                 // when window width is >= 320px
                 320: {
-                    slidesPerView: 'auto',
+                    slidesPerView: 1,
 
                 },
                 // when window width is >= 480px
                 480: {
-                    slidesPerView: 'auto',
+                    slidesPerView: 1,
 
                 },
                 // when window width is >= 640px
                 640: {
-                    slidesPerView: 'auto',
+                    slidesPerView: 1,
 
                 },
                 // when window width is >= 1024px
@@ -753,12 +752,6 @@
             },
 
 
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
         });
 
         const swiper_2 = new Swiper('.swiper_2', {
@@ -767,7 +760,6 @@
 
             // If we need pagination
             pagination: {
-                el: '.swiper-pagination',
                 clickable: true,
             },
 
