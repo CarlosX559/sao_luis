@@ -371,6 +371,7 @@ header {
                 max-width: 385px;
 
                 img {
+                    width: 100%;
                     max-width: max-content;
                     height: auto;
                 }
@@ -1600,6 +1601,23 @@ header {
                     }
                 }
               
+            }
+        }
+    }
+
+    header {
+        .area_menu_mobile {
+            .menu_mobile {
+                nav {
+                    ul {
+                        a {
+                            li {
+                                font-size: 1.4em;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
