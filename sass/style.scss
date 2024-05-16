@@ -230,6 +230,7 @@ header {
 
                 ul {
                     padding: 0px;
+                    margin: 0px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -1474,14 +1475,17 @@ header {
         --font-info-small: 1.1em;
 
     }
+
     header {
         padding: 20px;
+
         .container_menu {
             .container_menu_int {
                 .area_menu {
                     .area_btns_menu {
                         justify-content: flex-end;
                         width: 100%;
+
                         a {
                             display: none;
                         }
@@ -1490,9 +1494,10 @@ header {
             }
         }
     }
+
     header {
         .area_menu_mobile {
-            .menu_mobile{
+            .menu_mobile {
                 nav {
                     ul {
                         a {
@@ -1505,7 +1510,7 @@ header {
             }
         }
     }
-  
+
     .container_home {
         .container_home_int {
             .area_home {
@@ -1519,6 +1524,7 @@ header {
                         }
                     }
                 }
+
                 .area_mini_banners {
                     flex-direction: column;
                 }
@@ -1559,11 +1565,14 @@ header {
 
     .container_jornada {
         padding: 0px 0px 60px 0px;
+
         .container_jornada_int {
             .area_jornada {
                 padding: 40px 40px 0px 40px;
+
                 .area_jornada_int {
                     flex-direction: column;
+
                     .bg_jornada {
                         margin-top: 0px;
                     }
@@ -1585,12 +1594,22 @@ header {
 
     }
 
-  
     .container_home {
         .container_home_int {
             .area_home {
                 gap: 40px;
+
                 .swiper_1 {
+                    .swiper-pagination-bullet-active {
+                        width: 40px !important;
+                        height: 10px;
+                    }
+
+                    .swiper-pagination-bullet {
+                        width: 10px;
+                        height: 10px;
+                    }
+
                     .swiper-slide {
                         .estudante {
                             top: -28px;
@@ -1600,7 +1619,7 @@ header {
                         }
                     }
                 }
-              
+
             }
         }
     }
@@ -1614,6 +1633,7 @@ header {
                             li {
                                 font-size: 1.4em;
                                 text-align: center;
+                                padding: 0px 20px;
                             }
                         }
                     }
