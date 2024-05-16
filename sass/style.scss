@@ -1295,7 +1295,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
     background-color: #012241;
 
     .container_jornada_int {
@@ -1557,6 +1557,7 @@ header {
     }
 
     .container_jornada {
+        padding: 0px 0px 60px 0px;
         .container_jornada_int {
             .area_jornada {
                 padding: 40px 40px 0px 40px;
