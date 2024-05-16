@@ -1,3 +1,30 @@
+function menu() {
+  let open = document.querySelector(".area_open_menu");
+  let menu = document.querySelector(".area_menu_mobile");
+  open.addEventListener("click", () => {
+    menu.style.display = "flex";
+    menu.style.right = "0px";
+    menu.style.animation = "move ease-in 400ms";
+  });
+
+  let close = document.querySelector(".close_menu");
+
+  close.addEventListener("click", () => {
+    menu.style.display = "flex";
+    menu.style.right = "-100%";
+    menu.style.animation = "move ease-out 400ms";
+  });
+
+  let area_menu = document.querySelectorAll(".area_menu nav ul li a");
+
+  area_menu.forEach((element) => {
+    element.addEventListener("click", () => {
+      menu.style.right = "-100%";
+      menu.style.animation = "move ease-out 400ms";
+    });
+  });
+}
+window.addEventListener( 'load',  menu);
 
 const animations = document.querySelectorAll("[data-animation]");
 const animationClass = "animate";
