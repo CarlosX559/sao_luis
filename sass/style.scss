@@ -1349,13 +1349,153 @@ header {
 
                 }
 
-                .bg_jornada {
-                    max-width: max-content;
-                    height: auto;
-                    margin-top: -100px;
-                    width: 100%;
+                .area_bg_jornada {
+                    position: relative;
+                    display: flex;
+
+                    .bg_jornada {
+                        max-width: max-content;
+                        height: auto;
+                        margin-top: -100px;
+                        width: 100%;
+                    }
+
+                    .btn_matricular_jornada {
+                        position: absolute;
+                        left: 22%;
+                        bottom: 18%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        max-width: 350px;
+                        background: #023A66;
+                        border-radius: 12px;
+                        padding: 20px 30px;
+                        -webkit-animation: pulse-branco 2s infinite;
+                        -moz-animation: pulse-branco 2s infinite;
+                        -o-animation: pulse-branco 2s infinite;
+                        animation: pulse-branco 2s infinite;
+
+                        h2 {
+                            font-weight: 600;
+                            font-size: var(--font-sub-title);
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                        }
+                    }
                 }
 
+
+            }
+        }
+    }
+}
+
+
+footer {
+    background-color: #023A66;
+    width: 100%;
+    padding: 60px 0px 60px 0px;
+
+    .container_footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .container_footer_int {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 60px;
+            align-items: center;
+            width: 100%;
+            max-width: 1280px;
+
+            .copy_footer {
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+
+            .area_footer {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                justify-content: space-between;
+                width: 100%;
+
+                .footer_col_sm {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    width: 100%;
+                    max-width: 330px;
+
+                    .info_footer {
+                        p {
+                            font-weight: 400;
+                            font-size: var(--font-info-small);
+                            color: #FFFFFF;
+
+                        }
+                    }
+
+                    .area_atendimento {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .area_atendimento_int {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0px;
+
+                            .title_atendimento {
+                                h2 {
+                                    font-weight: 800;
+                                    font-size: var(--font-sub-title);
+                                    color: #FFFFFF;
+
+                                }
+                            }
+
+                            .sub_title_atendimento {
+                                p {
+                                    font-weight: 400;
+                                    font-size: var(--font-info-small);
+                                    color: #FFFFFF;
+
+                                }
+                            }
+                        }
+                    }
+
+                    .area_social {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .area_social_int {
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+
+                            .info_social {
+                                p {
+                                    font-weight: 800;
+                                    font-size: var(--font-sub-title);
+                                    color: #FFFFFF;
+
+                                }
+                            }
+                        }
+                    }
+
+
+                }
             }
         }
     }
@@ -1576,6 +1716,18 @@ header {
                     .bg_jornada {
                         margin-top: 0px;
                     }
+                }
+            }
+        }
+    }
+
+    footer {
+        .container_footer {
+            .container_footer_int {
+                .area_footer {
+                    flex-direction: column;
+                    gap: 40px;
+                    padding: 0px 20px;
                 }
             }
         }
