@@ -620,6 +620,7 @@ header {
             .card_graduacao {
                 max-width: 240px;
                 width: 100%;
+                height: 460px;
 
                 background: #012241;
                 border-radius: 32px;
@@ -627,6 +628,15 @@ header {
                 .card_graduacao_int {
                     display: flex;
                     flex-direction: column;
+                    height: 100%;
+
+                    .area_img_curso {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        height: 100%;
+                        justify-content: flex-end;
+                    }
 
                     .area_text_graduacao {
                         display: flex;
