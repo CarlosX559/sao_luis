@@ -53,6 +53,10 @@ a {
     transition-delay: 500ms;
 }
 
+[data-delay-5] {
+    transition-delay: 600ms;
+}
+
 [data-animation="down"] {
     transform: translate3d(0, 20px, 0);
 }
