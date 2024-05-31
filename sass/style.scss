@@ -949,6 +949,19 @@ header {
     z-index: 1;
     padding: 40px 0px;
 
+    .container_mercado_int.sup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1400px;
+        .area_mercado {
+            .area_text_mercado {
+                max-width: 470px;
+            }
+        }
+    }
+   
     .container_mercado_int {
         display: flex;
         justify-content: center;
@@ -969,6 +982,15 @@ header {
                 max-width: 430px;
                 width: 100%;
 
+                .info_title_mercado {
+                    h3 {
+                        font-weight: 800;
+                        font-size: var(--font-info-small);
+                        line-height: 1.2em;
+                        letter-spacing: 0.4em;
+                        color: #8EF027;
+                    }
+                }
                 .title_mercado {
                     h2 {
                         font-weight: 700;
@@ -1162,14 +1184,31 @@ header {
     }
 }
 
-.container_exlusivo {
+.container_exclusivo.sup {
+    .container_exclusivo_int {
+        .area_exclusivo {
+            .box_exclusivo {
+                height: 340px;
+                .box_exclusivo_int {
+                    .title_box_exclusivo {
+                        h2 {
+                            font-size: 1.6em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.container_exclusivo {
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: #012241;
     padding: 60px 0px 60px 0px;
 
-    .container_exlusivo_int {
+    .container_exclusivo_int {
         display: flex;
         justify-content: center;
         align-items: center;
