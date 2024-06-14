@@ -16,7 +16,8 @@ body {
     --font-title-all: 2.5em;
     --font-sub-title: 1.25em;
     --font-info-small: 1.1em;
-
+    --font-title-sup: 3em;
+    --font-sub-title-sup: 1.6em;
 }
 
 h1,
@@ -952,20 +953,20 @@ header {
     position: relative;
     z-index: 1;
     padding: 40px 0px;
-
     .container_mercado_int.sup {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
         max-width: 1400px;
+
         .area_mercado {
             .area_text_mercado {
                 max-width: 470px;
             }
         }
     }
-   
+
     .container_mercado_int {
         display: flex;
         justify-content: center;
@@ -978,6 +979,7 @@ header {
             justify-content: center;
             align-items: center;
             width: 100%;
+            gap: 40px;
 
             .area_text_mercado {
                 display: flex;
@@ -995,6 +997,7 @@ header {
                         color: #8EF027;
                     }
                 }
+
                 .title_mercado {
                     h2 {
                         font-weight: 700;
@@ -1023,16 +1026,15 @@ header {
                     max-width: max-content;
                     height: auto;
                     z-index: 1;
-                    margin: -140px 0px -40px 0px;
+                    margin: -140px 0px -60px 0px;
                 }
 
                 .bg_lines {
                     position: absolute;
                     z-index: -1;
                     left: 0px;
-                    bottom: -40px;
-                    max-width: max-content;
-                    width: 100%;
+                    bottom: -60px;
+                    width: auto;
                     height: auto;
                 }
             }
@@ -1193,6 +1195,7 @@ header {
         .area_exclusivo {
             .box_exclusivo {
                 height: 340px;
+
                 .box_exclusivo_int {
                     .title_box_exclusivo {
                         h2 {
@@ -1562,7 +1565,6 @@ footer {
         --font-title-all: 2.2em;
         --font-sub-title: 1.25em;
         --font-info-small: 1.1em;
-
     }
 
     .container_home {
@@ -1903,3 +1905,269 @@ footer {
 
 
 }
+
+#container_supletivo_home {
+    background-image: url(../img_sup/bg_sup.png);
+    height: 780px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container_supletivo_home {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        .container_supletivo_home_int {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 1280px;
+            height: 100%;
+
+            .area_supletivo_home {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+
+                .area_text_supletivo_home {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    width: 100%;
+                    max-width: 680px;
+
+                    .area_btns_supletivo_home {
+                        display: flex;
+                        gap: 20px;
+                        width: 100%;
+
+                        .btn_matricular_menu {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            max-width: 300px;
+                            padding: 16px 30px;
+                            background: #8EF027;
+                            border-radius: 12px;
+
+                            h2 {
+                                font-weight: 600;
+                                font-size: var(--font-info-small);
+                                color: #033F6C;
+                                text-transform: uppercase;
+                            }
+                        }
+
+                        .btn_destaque {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            max-width: 300px;
+                            padding: 15px 30px;
+                            border: 2px solid #FFFFFF;
+                            border-radius: 12px;
+
+                            h2 {
+                                font-weight: 600;
+                                font-size: var(--font-info-small);
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+
+                    .title_supletivo_home {
+                        h2 {
+                            font-weight: 700;
+                            font-size: var(--font-title-sup);
+                            line-height: 1.4em;
+                            color: #8EF027;
+                        }
+                    }
+
+                    .sub_title_supletivo_home {
+                        p {
+                            font-weight: 400;
+                            font-size: var(--font-sub-title-sup);
+                            line-height: 1.2em;
+                            color: #fff;
+                        }
+                    }
+
+                    .info_sub_title_supletivo_home {
+                        p {
+                            font-weight: 400;
+                            font-size: var(--font-sub-title);
+                            line-height: 1.2em;
+                            color: #fff;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+#container_ead_qualidade_supletivo {
+    background-image: url(../img_sup/bg_cursos_ead.png);
+    height: 780px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container_ead_qualidade_supletivo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        .container_ead_qualidade_supletivo_int {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+            .area_ead_qualidade_supletivo {
+                display: flex;
+                justify-content: flex-end;
+                background-color: #FFFFFF;
+                border-radius: 0px 80px 80px 0px;
+                max-width: 1000px;
+                width: 100%;
+                padding: 60px 80px 60px 0px;
+
+                .area_ead_qualidade_supletivo_int {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    max-width: 640px;
+                    width: 100%;
+
+                    .area_titles_ead_qualidade_supletivo {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        width: 100%;
+                        .info_ead_qualidade_supletivo {
+                            p {
+                                font-weight: 800;
+                                font-size: var(--font-info-small);
+                                line-height: 1.2em;
+                                letter-spacing: .4em;
+                                color: #8ef027;
+                            }
+                        }
+                        .title_ead_qualidade_supletivo {
+                            h2 {
+                                font-weight: 700;
+                                font-size: var(--font-title-all);
+                                line-height: 1.4em;
+                                color: #012241;
+                            }
+                        }
+                      
+                    }
+                    .sub_title_ead_qualidade_supletivo {
+                        p {
+                            font-weight: 400;
+                            font-size: var(--font-sub-title-sup);
+                            line-height: 1.2em;
+                            color: #012241;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1024px) {
+:root {
+    --font-title-sup: 2.6em;
+    --font-sub-title-sup: 1.4em;
+}
+
+    #container_supletivo_home {
+        .container_supletivo_home {
+            .container_supletivo_home_int {
+                .area_supletivo_home {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    #container_ead_qualidade_supletivo {
+        .container_ead_qualidade_supletivo {
+            .container_ead_qualidade_supletivo_int {
+                align-items: center;
+                justify-content: center;
+                .area_ead_qualidade_supletivo {
+                    border-radius: 80px 80px 80px 80px;
+                    justify-content: center;
+                    padding: 60px 60px 60px 60px;
+                    
+                    .area_ead_qualidade_supletivo_int {
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media(max-width: 480px) {
+
+    :root {
+        --font-title-sup: 2em;
+        --font-sub-title-sup: 1.4em;
+    }
+    
+    #container_supletivo_home {
+        background-position: 67%;
+        height: 700px;
+        .container_supletivo_home {
+            .container_supletivo_home_int {
+                .area_supletivo_home {
+                    .area_text_supletivo_home {
+                        padding: 0px 20px;
+                        .area_btns_supletivo_home {
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #container_ead_qualidade_supletivo {
+        background-position: 67%;
+        height: 700px;
+        .container_ead_qualidade_supletivo {
+            .container_ead_qualidade_supletivo_int {
+                margin: 0px 20px;
+                .area_ead_qualidade_supletivo {
+                    padding: 60px 40px;
+                }
+            }
+        }
+    }
+
+
+}
+
