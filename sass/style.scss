@@ -1037,6 +1037,14 @@ header {
                     width: auto;
                     height: auto;
                 }
+                .bg_lines.sup {
+                    position: absolute;
+                    z-index: -1;
+                    left: -230px;
+                    bottom: -60px;
+                    width: auto;
+                    height: auto;
+                }
             }
 
 
@@ -1631,6 +1639,13 @@ footer {
                         max-width: max-content;
                         width: 100%;
                         bottom: -80px;
+                        height: auto;
+                    }
+                    .bg_lines.sup {
+                        display: none;
+                        max-width: max-content;
+                        width: 100%;
+                        bottom: -40px;
                         height: auto;
                     }
                 }
