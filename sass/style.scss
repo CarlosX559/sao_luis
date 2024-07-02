@@ -251,6 +251,10 @@ header {
                             font-size: 30px;
                             color: #FFFFFF;
                             text-transform: uppercase;
+                            transition: all ease 200ms;
+                        }
+                        li:hover {
+                            color: #8ef027;
                         }
                     }
                 }
