@@ -15,9 +15,9 @@ function menu() {
     menu.style.animation = "move ease-out 400ms";
   });
 
-  let area_menu = document.querySelectorAll(".area_menu nav ul li a");
+  let area_menu_mobile = document.querySelectorAll(".menu_mobile nav ul a");
 
-  area_menu.forEach((element) => {
+  area_menu_mobile.forEach((element) => {
     element.addEventListener("click", () => {
       menu.style.right = "-100%";
       menu.style.animation = "move ease-out 400ms";
